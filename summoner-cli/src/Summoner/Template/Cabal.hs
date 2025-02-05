@@ -112,7 +112,7 @@ cabalFile Settings{..} = File (toString settingsRepo ++ ".cabal") cabalFileConte
         <> ghcOptions
         <>
         ( ""
-        : "  default-language:    Haskell2010"
+        : "  default-language:    GHC2024"
         : defaultExtensions
         )
 
